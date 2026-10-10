@@ -4,7 +4,7 @@ Proiectul implementează simularea completă a unui joc de tip *board-game*, îm
 
 ---
 
-## 📋 Cerințele Temei
+## Cerințele Temei
 
 ### 1. Înscrierea și organizarea datelor
 * **1.1 Jucători:** Citirea din fișierul `jucatori.csv` (nume, energie, abilitate) și stocarea într-o **coadă** (listă simplu înlănțuită), asignând fiecărui jucător un ID unic incremental.
@@ -32,7 +32,7 @@ Proiectul implementează simularea completă a unui joc de tip *board-game*, îm
 * Rularea algoritmului **A\*** pentru determinarea drumului de cost minim între start și destinație, folosind:
   * O coadă cu priorități (Min-Heap);
   * Euristica Manhattan: $h(n) = \vert{}n.x - d.x\vert{} + \vert{}n.y - d.y\vert{}$;
-  * Funcția de cost: $f(n) = g(n) + \text{min\_cost} \cdot h(n)$.
+  * Funcția de cost: `f(n) = g(n) + min_cost * h(n)`
 * La fiecare pas, energia jucătorului scade cu costul tranziției. Dacă energia devine $\le 0$, misiunea este considerată eșuată.
 
 ---
