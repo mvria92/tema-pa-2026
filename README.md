@@ -37,7 +37,7 @@ Proiectul implementează simularea completă a unui joc de tip *board-game*, îm
 
 ---
 
-## 🛠️ Detalii de Implementare și Complexități
+## Detalii de Implementare și Complexități
 
 * **Structuri de date alese:**
   * Coadă și Stivă pentru parsarea rapidă $\mathcal{O}(1)$ la inserare/extragere.
@@ -47,7 +47,7 @@ Proiectul implementează simularea completă a unui joc de tip *board-game*, îm
 
 ---
 
-## 🚀 Compilare și Rulare
+## Compilare și Rulare
 
 Compilarea proiectului se realizează cu `make`:
 ```bash
